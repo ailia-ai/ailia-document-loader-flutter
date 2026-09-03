@@ -1,0 +1,8 @@
+name: 'ailiaDocumentLoaderFFI'
+description: 'Bindings to `ailia_document_loader.h`.'
+output: 'lib/ailia_document_loader.dart'
+headers:
+  entry-points:
+    - 'native/ailia_document_loader.h'
+llvm-path:
+  - '/usr/local/opt/llvm@15'
